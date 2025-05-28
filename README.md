@@ -50,25 +50,17 @@ src/
 4. Rode para baixar dependências e compilar:  
    ```bash
    mvn clean install
-Inicie o backend:
+5. Inicie o backend:
+   mvn spring-boot:run
+6. Abra no navegador: http://localhost:8080
+7. Comece a adicionar seus ingredientes e descubra receitas deliciosas! 🍝🍲🍰
 
-bash
-Copiar
-Editar
-mvn spring-boot:run
-Abra no navegador: http://localhost:8080
-
-Comece a adicionar seus ingredientes e descubra receitas deliciosas! 🍝🍲🍰
-
-🤖 Como funciona a “IA” do chef Maisa?
+## 🤖 Como funciona a “IA” do chef Maisa?
 Você informa os ingredientes disponíveis na sua cozinha 🍅🧀🥚
 
-O sistema compara com o banco de receitas e calcula a compatibilidade 🔍
+- O sistema compara com o banco de receitas e calcula a compatibilidade 🔍
+- Mostra receitas que você pode fazer ou quase fazer (com faltas)
+- Para os ingredientes que faltam, o chef Maisa sugere substituições inteligentes e práticas 🌿
+- Tudo isso em tempo real, direto na sua tela! 🖥️💨
 
-Mostra receitas que você pode fazer ou quase fazer (com faltas)
-
-Para os ingredientes que faltam, o chef Maisa sugere substituições inteligentes e práticas 🌿
-
-Tudo isso em tempo real, direto na sua tela! 🖥️💨
-
-✨🥘 Bon appétit! 🥘✨
+## ✨🥘 Bon appétit! 🥘✨
